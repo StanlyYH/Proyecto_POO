@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hshPgEYH24I=",
+  "dgSpecHash": "pcZEpazhdZ4=",
   "success": true,
   "projectFilePath": "/Users/stanly/Library/Mobile Documents/com~apple~CloudDocs/UNAH /POO/PROYECTO_FINAL/CitasMedicasApi/CitasMedicasApi.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "/Users/stanly/.nuget/packages/microsoft.visualstudio.solutionpersistence/1.0.52/microsoft.visualstudio.solutionpersistence.1.0.52.nupkg.sha512",
     "/Users/stanly/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
     "/Users/stanly/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/stanly/.nuget/packages/scalar.aspnetcore/2.13.22/scalar.aspnetcore.2.13.22.nupkg.sha512",
     "/Users/stanly/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.11/sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
     "/Users/stanly/.nuget/packages/sqlitepclraw.core/2.1.11/sqlitepclraw.core.2.1.11.nupkg.sha512",
     "/Users/stanly/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.11/sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
