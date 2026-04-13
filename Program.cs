@@ -1,5 +1,9 @@
 using CitasMedicasApi.Data;
 using Microsoft.EntityFrameworkCore;
+using CitasMedicasApi.Services.Implementations;
+using CitasMedicasApi.Services.Interfaces;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
