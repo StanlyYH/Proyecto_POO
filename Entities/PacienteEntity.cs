@@ -1,37 +1,41 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Proyecto_POO.Entities;
 
 namespace CitasMedicasApi.Entities
 {
-    public class PacienteEntity
+    [Table("pacientes")]
+    public class PacienteEntity : BaseEntity
     {
-        public int Id { get; set; }
+        [Required()]
+        [StringLength(13)]
+        [Column("dni")]
+        public string DNI { get; set; }
 
-        [Required]
-        [MaxLength(20)]
-        public string Dni { get; set; } = string.Empty;
+        [Required()]
+        [StringLength(40)]
+        [Column("first_name")]
+        public string FirstName { get; set; }
 
-        [Required]
-        [MaxLength(100)]
-        public string Nombres { get; set; } = string.Empty;
+        [Required()]
+        [StringLength(40)]
+        [Column("last_name")]
+        public string LastName { get; set; }
 
-        [Required]
-        [MaxLength(100)]
-        public string Apellidos { get; set; } = string.Empty;
+        [Column("birth_date")]
+        public DateTime BirthDate { get; set; }
 
-        public DateTime FechaNacimiento { get; set; }
+        [Column("gender")]
+        public string Gender { get; set; }
 
-        [Required]
-        [MaxLength(10)]
-        public string Sexo { get; set; } = string.Empty;
+        [Column("phone")]
+        public string Phone { get; set; }
+        [Column("address")]
+        public string Address { get; set; }
+        
+        //*public ICollection<CitaEntity> Citas { get; set; } = new List<CitaEntity>();
 
-        [MaxLength(20)]
-        public string Telefono { get; set; } = string.Empty;
+        //public virtual IEnumerable<CitaEntity> Citas { get; set; }
 
-        [MaxLength(200)]
-        public string Direccion { get; set; } = string.Empty;
-
-        public DateTime FechaRegistro { get; set; } = DateTime.Now;
-
-        public ICollection<CitaEntity> Citas { get; set; } = new List<CitaEntity>();
     }
 }
