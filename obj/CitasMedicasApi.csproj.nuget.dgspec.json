@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/stanly/Library/Mobile Documents/com~apple~CloudDocs/UNAH /POO/PROYECTO_FINAL/CitasMedicasApi/CitasMedicasApi.csproj": {}
+    "C:\\Users\\Darlan Mejia\\Proyecto_POO\\CitasMedicasApi.csproj": {}
   },
   "projects": {
-    "/Users/stanly/Library/Mobile Documents/com~apple~CloudDocs/UNAH /POO/PROYECTO_FINAL/CitasMedicasApi/CitasMedicasApi.csproj": {
+    "C:\\Users\\Darlan Mejia\\Proyecto_POO\\CitasMedicasApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stanly/Library/Mobile Documents/com~apple~CloudDocs/UNAH /POO/PROYECTO_FINAL/CitasMedicasApi/CitasMedicasApi.csproj",
+        "projectUniqueName": "C:\\Users\\Darlan Mejia\\Proyecto_POO\\CitasMedicasApi.csproj",
         "projectName": "CitasMedicasApi",
-        "projectPath": "/Users/stanly/Library/Mobile Documents/com~apple~CloudDocs/UNAH /POO/PROYECTO_FINAL/CitasMedicasApi/CitasMedicasApi.csproj",
-        "packagesPath": "/Users/stanly/.nuget/packages/",
-        "outputPath": "/Users/stanly/Library/Mobile Documents/com~apple~CloudDocs/UNAH /POO/PROYECTO_FINAL/CitasMedicasApi/obj/",
+        "projectPath": "C:\\Users\\Darlan Mejia\\Proyecto_POO\\CitasMedicasApi.csproj",
+        "packagesPath": "C:\\Users\\Darlan Mejia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darlan Mejia\\Proyecto_POO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/stanly/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Darlan Mejia\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -46,7 +46,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.2, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -67,6 +67,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.5, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.13.22, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -92,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
